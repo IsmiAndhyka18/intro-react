@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Display:wght@600&display=swap');
+
 body{
   background-image: url(./image/todo.png);
   background-repeat: no-repeat;
-    background-position: left;
-    background-color: rgb(205, 240, 228);
+  background-position:5% 10%;
+  background-color: rgb(205, 240, 228);
+  background-attachment: fixed;
+  
   
 }
 
@@ -28,14 +32,19 @@ body{
   width: 50%;
   padding: 15px 15px;
   border:none;
+  margin-left: 70px;
+  font-family: 'Big Shoulders Inline Display', cursive;
   
 }
 
 .todo {
-  margin: 32px 0px;
+  margin: 20px 20px;
   display: flex;
   align-items: center;
   font-size: 24px;
+  color:rgb(201, 146, 253);
+  font-family: 'Big Shoulders Inline Display', cursive;
+
 }
 
 .checkbox {
@@ -46,14 +55,15 @@ body{
   font-size: 12px;
   justify-content: right;
   align-items: right;
-  border: 1px solid #fff;
   
  
 }
 
 
+
+
 .button {
-  padding: 15px 25px;
+  padding: 17px 25px;
   font-size: 24px;
   text-align: center;
   cursor: pointer;
@@ -62,6 +72,7 @@ body{
   background-color: #3f7b9e4b;
   border: none;
   box-shadow: 0 9px #999;
+  border-radius: 2px;
 }
 
 .button:hover {background-color: #8b75a0}
@@ -72,4 +83,16 @@ body{
   transform: translateY(4px);
 
 
+}
+
+.delete {
+  margin-left: auto;
+  font-size: 16px;
+  cursor: pointer;
+  letter-spacing: 80px;
+
+}
+
+.delete:hover {
+  opacity: 0.8;
 }
