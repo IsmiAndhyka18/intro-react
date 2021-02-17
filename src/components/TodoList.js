@@ -19,7 +19,7 @@ function TodoList() {
 
 
         <div key={todo.id} className="todo">
-          <input type="radio" className="checkbox" checked={todo.isCompleted && <span>&#x2714;</span>}/> {todo.name}
+          <input type="radio" className="checkbox" checked={todo.isCompleted}/> {todo.name}
         </div>
       ))}
     </ul>

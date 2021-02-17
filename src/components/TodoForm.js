@@ -1,6 +1,6 @@
 import React from 'react'
 
-const TodoForm = () => {
+export default function TodoList() {
   
     return (
       <div>
@@ -10,4 +10,4 @@ const TodoForm = () => {
     )
 }
 
-export default TodoForm
+
