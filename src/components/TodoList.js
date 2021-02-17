@@ -3,9 +3,9 @@ import React, {useState} from 'react';
 function TodoList() {
 
   const initalTodos = [
-    {id: 1, name: '1st todo', complete: false},
-    {id: 2, name: '2nd todo', complete: true},
-    {id: 3, name: '3rd todo', complete: false},
+    {id: 1, name: 'LEARN REACT', complete: false},
+    {id: 2, name: 'BE AWESOME', complete: true},
+    {id: 3, name: 'GOOD JOB ISMI', complete: false},
   ];
 
   const [todos, setTodos] = useState(initalTodos);
@@ -18,8 +18,8 @@ function TodoList() {
       {todos.map((todo)=>(
 
 
-        <div className="todo" key={todo.id}>
-          <input  className="checkbox" type="checkbox" checked={todo.complete}/> {todo.name}
+        <div key={todo.id} className="todo">
+          <input type="radio" className="checkbox" checked={todo.isCompleted && <span>&#x2714;</span>}/> {todo.name}
         </div>
       ))}
     </ul>
