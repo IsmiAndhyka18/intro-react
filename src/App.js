@@ -1,15 +1,15 @@
 import React from "react" ;
 import './App.css';
+import TodoForm from './components/TodoForm'
+import TodoList from './components/TodoList'
 
 
 const App = () => {
   return (
-    <div>
+    <div className="App">
 			<h1>To-Do List</h1>
-      <form action="#">
-        <input type="text" name="name" placeholder="What need to be done ?" />
-        <input type="submit" value="ADD" />
-      </form>
+      <TodoForm />
+      <TodoList />
 		</div>
   )
 }
