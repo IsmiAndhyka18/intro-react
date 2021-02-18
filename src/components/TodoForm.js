@@ -1,8 +1,15 @@
-import React,{useRef} from "react";
+import React,{ useState, useRef} from "react";
 import { v4 as uuidv4 } from 'uuid'
+
+
+
+
 
 export default function TodoForm( {todos , setTodos}) {
   const inputRef = useRef();
+
+  
+ //Enter handler
 
   const clickHandler = (e) => {
     if(e.key === 'Enter'){
