@@ -1,7 +1,7 @@
 import React,{useRef} from "react";
 import { v4 as uuidv4 } from 'uuid'
 
-export default function TodoForm({todos , setTodos}) {
+export default function TodoForm( {todos , setTodos}) {
   const inputRef = useRef();
 
   const clickHandler = (e) => {
@@ -12,7 +12,7 @@ export default function TodoForm({todos , setTodos}) {
       inputRef.current.value = null
     }
  }
-    const keyEnterHandler = (e) =>{
+    const  EnterHandler = (e) =>{
     if(e.key === 'Enter'){
         clickHandler()
      }
