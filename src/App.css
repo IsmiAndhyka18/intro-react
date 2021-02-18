@@ -71,15 +71,15 @@ body{
   color: #fff;
   background-color: #3f7b9e4b;
   border: none;
-  box-shadow: 0 9px #999;
+  box-shadow: 0 9px rgb(165, 153, 173);
   border-radius: 2px;
 }
 
 .button:hover {background-color: #8b75a0}
 
 .button:active {
-  background-color: #95be96;
-  box-shadow: 0 5px rgb(136, 131, 131);
+  background-color: #abcaab;
+  box-shadow: 0 5px rgb(125, 117, 129);
   transform: translateY(4px);
 
 
