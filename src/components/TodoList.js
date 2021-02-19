@@ -39,7 +39,7 @@ function TodoList({todos , setTodos}) {
          </div> 
         </div>
       ))}
-     vd
+
     </ul>
   )
 }
