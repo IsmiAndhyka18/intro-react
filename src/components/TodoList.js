@@ -39,7 +39,7 @@ function TodoList({todos , setTodos}) {
          </div> 
         </div>
       ))}
-
+        <h2>{todos.length > 0 && `${todos.length} Needs to be done`}</h2>
     </ul>
   )
 }
