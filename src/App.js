@@ -2,6 +2,7 @@ import React, { useEffect,useState} from "react" ;
 import './App.css';
 import TodoForm from './components/TodoForm'
 import TodoList from './components/TodoList'
+import logo from './image/todo.png'; 
 
 
 
@@ -29,9 +30,12 @@ function App() {
 
   
   return (
-    <div className="App">
-      <TodoForm todos={todos} setTodos={setTodos}  />
-      <TodoList  todos={todos} setTodos={setTodos} />
+    <div className="App ">
+      <div className="image">
+      <img src={logo} alt="Logo" />
+        <TodoForm todos={todos} setTodos={setTodos}  />
+        <TodoList  todos={todos} setTodos={setTodos} />
+      </div>
 		</div>
   )
 }
