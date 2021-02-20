@@ -24,7 +24,7 @@ export default function TodoForm( {todos , setTodos}) {
   
     return (
       <div>
-          <input  ref={inputRef}  onKeyPress={clickHandler} className="todo-input" type="text" placeholder="Whats need to be done ?" />
+          <input  ref={inputRef}  onKeyPress={clickHandler} className="todo-input" type="text" placeholder="  Add Todo-List " />
           
       </div>
     )

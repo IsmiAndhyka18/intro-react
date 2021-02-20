@@ -12,6 +12,7 @@ function App() {
 
   const LSKEY = "MyTodoApp";
 
+  
 
   useEffect(() => {
     if(window.localStorage.getItem(LSKEY+".todos")!=null)
@@ -31,12 +32,10 @@ function App() {
   
   return (
     <div className="App ">
-      <div className="image">
       <img src={logo} alt="Logo" />
         <TodoForm todos={todos} setTodos={setTodos}  />
         <TodoList  todos={todos} setTodos={setTodos} />
       </div>
-		</div>
   )
 }
 export default App ;
