@@ -3,6 +3,11 @@ import './App.css';
 import TodoForm from './components/TodoForm'
 import TodoList from './components/TodoList'
 import logo from './image/todo.png'; 
+import Time from './components/Time'
+
+
+
+
 
 
 
@@ -28,14 +33,23 @@ function App() {
   useEffect(() => {
     window.localStorage.setItem(LSKEY + ".todos", JSON.stringify(todos));
   });
-
+  
+  
   
   return (
+
+    <>
+    
+    <div className="time">
+      <Time />
+      </div>
     <div className="App ">
       <img src={logo} alt="Logo" />
         <TodoForm todos={todos} setTodos={setTodos}  />
         <TodoList  todos={todos} setTodos={setTodos} />
       </div>
+
+  </>
   )
 }
 export default App ;
