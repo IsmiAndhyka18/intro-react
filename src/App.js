@@ -6,11 +6,6 @@ import logo from './image/todo.png';
 import Time from './components/Time'
 
 
-
-
-
-
-
 function App() {
 
   const [todos, setTodos] = useState([]);
@@ -39,6 +34,10 @@ function App() {
   return (
 
     <>
+
+    <div class="bg"></div>
+    <div class="bg bg2"></div>
+    <div class="bg bg3"></div>
     
     <div className="time">
       <Time />
