@@ -11,5 +11,13 @@ This time the task is simple: you will build a small Todo application that lives
 ![](todo.gif)
 
 
+# Built with :hammer_and_wrench:
+- VSCODE 
+- HTML5 
+- MARKDOWN 
+- REACT 
+
+
+
 
 
