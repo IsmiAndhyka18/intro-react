@@ -1,4 +1,4 @@
-# TODO React App
+# TODO React App :writing_hand:
 
 This time the task is simple: you will build a small Todo application that lives in your browser, and saves todos even after browsers restart.
 
@@ -6,6 +6,7 @@ This time the task is simple: you will build a small Todo application that lives
 - Add todo functionality
 - Remove todo functionality
 - Save todos even if browser restarts
+
 # Live and Demo
 ![](todo.gif)
 
