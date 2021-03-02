@@ -7,6 +7,7 @@ This time the task is simple: you will build a small Todo application that lives
 - Remove todo functionality
 - Save todos even if browser restarts
 # Live and Demo
+![](todo.gif)
 
 
 
