@@ -18,7 +18,7 @@ This time the task is simple: you will build a small Todo application that lives
 - REACT 
 
 # Result
-[title](https://reacct-intro.netlify.app/)
+[TODO-REACT APP](https://reacct-intro.netlify.app/)
 
 
 
